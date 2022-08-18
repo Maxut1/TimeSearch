@@ -95,16 +95,18 @@ namespace SortItems
         {
             if(_item.Type == type)
             {
-                Destroy(_item.gameObject);
+                //Destroy(_item.gameObject);
                 count++;
-
-                onCountChanget.Invoke(this);
 
                 if (count >= targetCount)
                 {
                     _Material.color = Color.gray;
                     active = false;
                 }
+                onCountChanget.Invoke(this);
+                
+                _item.OnHideRequest.Invoke();
+
             }
         }
         

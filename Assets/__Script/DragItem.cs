@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
 namespace SortItems
@@ -9,9 +10,10 @@ namespace SortItems
     public class DragItem : MonoBehaviour, IPointerDownHandler,  IPointerUpHandler, IDragHandler
     {
         [SerializeField] private float upForce = 1000f;
+        [SerializeField] private ItemType _type;
+        public UnityEvent OnHideRequest;
         private Rigidbody _rigidbody;
         public bool isDraggable {get; private set;}
-        [SerializeField] private ItemType _type;
         public ItemType Type {get => _type;}
 
         
