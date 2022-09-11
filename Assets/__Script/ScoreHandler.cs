@@ -13,7 +13,6 @@ namespace SortItems
         {
             if (_getters == null)
             {
-                Debug.LogError("Geters is null");
                 return;
             }
             foreach (var getter in _getters)
@@ -61,7 +60,6 @@ namespace SortItems
 
             if (full)
             {
-                Debug.Log("you win");
                 onFull.Invoke();
             }
         }

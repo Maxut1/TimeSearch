@@ -110,9 +110,17 @@ PrefabInstance:
       propertyPath: upForce
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4408208649112567761, guid: 15f5fb672f2f1a948b66062855133158, type: 3}
+      propertyPath: _meshRenderer
+      value: 
+      objectReference: {fileID: 5031530044334888599}
     - target: {fileID: 5291679187776075559, guid: 15f5fb672f2f1a948b66062855133158, type: 3}
       propertyPath: m_Name
       value: sphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 6330145464289926578, guid: 15f5fb672f2f1a948b66062855133158, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7247110165466228152, guid: 15f5fb672f2f1a948b66062855133158, type: 3}
       propertyPath: m_RootOrder
@@ -158,6 +166,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9055534173981492337, guid: 15f5fb672f2f1a948b66062855133158, type: 3}
+      propertyPath: _meshRenderer
+      value: 
+      objectReference: {fileID: 5031530044334888599}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f5fb672f2f1a948b66062855133158, type: 3}
 --- !u!4 &7870916232024350968 stripped

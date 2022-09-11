@@ -106,6 +106,10 @@ PrefabInstance:
       propertyPath: upForce
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4408208649112567761, guid: 15f5fb672f2f1a948b66062855133158, type: 3}
+      propertyPath: _meshRenderer
+      value: 
+      objectReference: {fileID: 8049797781142016141}
     - target: {fileID: 5291679187776075559, guid: 15f5fb672f2f1a948b66062855133158, type: 3}
       propertyPath: m_Name
       value: cube
@@ -162,6 +166,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9055534173981492337, guid: 15f5fb672f2f1a948b66062855133158, type: 3}
+      propertyPath: _meshRenderer
+      value: 
+      objectReference: {fileID: 8049797781142016141}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15f5fb672f2f1a948b66062855133158, type: 3}
 --- !u!4 &8480369453298113674 stripped
