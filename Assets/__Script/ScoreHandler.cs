@@ -7,6 +7,9 @@ namespace SortItems
 {
     public class ScoreHandler : MonoBehaviour
     {
+        public scoreItem Score;
+        [SerializeField] private GameObject ObjectDiactiv;
+        [SerializeField] private GameObject ObjectActive;
         [SerializeField] private GetterParameters[] _getters;
         public UnityEvent onFull; 
         private void Start()
@@ -60,6 +63,9 @@ namespace SortItems
 
             if (full)
             {
+                Score.AddScore();
+                ObjectDiactiv.SetActive(false);
+                ObjectActive.SetActive(true);
                 onFull.Invoke();
             }
         }

@@ -20,7 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="096e5ee3-875b-4b84-8beb-4b7eab19e884" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SearchTime/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SearchTime/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SearchTime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SearchTime/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Script/ScoreHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Script/ScoreHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Script/itemTrail.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Script/itemTrail.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/material/lego.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/material/lego.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/New Folder/cegle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/New Folder/cegle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/New Folder/lego.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/New Folder/lego.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/item/Dragable items.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/item/Dragable items.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +44,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/__Script/UI/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Script/ScriptableModel/IStorable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Script/ScriptableModel/ScriptableModelsLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SceneReolader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Script/Models/PlayerScriptableModelProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Script/Models/PlayerModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Script/ScriptableModel/ScriptableModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Script/Models/PlayerScriptableModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Script/UI/ScorePresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Script/scoreItem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,6 +66,12 @@
         <option value="$PROJECT_DIR$/Assets/__Script/ScriptableModel/ScriptableModel.cs" />
         <option value="$PROJECT_DIR$/Assets/__Script/Models/PlayerScriptableModelProvider.cs" />
         <option value="$PROJECT_DIR$/Assets/__Script/ScriptableModel/Model.cs" />
+        <option value="$PROJECT_DIR$/Assets/__Script/UI/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/SceneReolader.cs" />
+        <option value="$PROJECT_DIR$/Assets/__Script/Getter.cs" />
+        <option value="$PROJECT_DIR$/Assets/__Script/itemHideFX.cs" />
+        <option value="$PROJECT_DIR$/Assets/__Script/scoreItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/__Script/ScoreHandler.cs" />
       </list>
     </option>
   </component>
@@ -96,6 +118,8 @@
       <workItem from="1663323096611" duration="4045000" />
       <workItem from="1663399756353" duration="20933000" />
       <workItem from="1663484415723" duration="799000" />
+      <workItem from="1664113035110" duration="7592000" />
+      <workItem from="1664200627234" duration="408000" />
     </task>
     <servers />
   </component>
