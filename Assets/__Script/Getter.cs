@@ -115,11 +115,15 @@ namespace SortItems
 
         public enum ItemType
         {
-            Cube,
+            CubeLego,
 
-            Capsule,
+            miniLego,
 
-            Sphere
+            LongLego,
+            
+            surprise,
+            
+            Lego
         }
 
 }
