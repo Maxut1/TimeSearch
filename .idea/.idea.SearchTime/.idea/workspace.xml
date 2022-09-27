@@ -22,12 +22,7 @@
     <list default="true" id="096e5ee3-875b-4b84-8beb-4b7eab19e884" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SearchTime/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SearchTime/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SearchTime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SearchTime/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SceneReolader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneReolader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Script/SceneChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Script/SceneChanger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Script/ScoreHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Script/ScoreHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Script/scoreItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Script/scoreItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +56,13 @@
         <option value="$PROJECT_DIR$/Assets/__Script/Models/PlayerScriptableModelProvider.cs" />
         <option value="$PROJECT_DIR$/Assets/__Script/ScriptableModel/Model.cs" />
         <option value="$PROJECT_DIR$/Assets/__Script/UI/Timer.cs" />
-        <option value="$PROJECT_DIR$/Assets/__Script/Getter.cs" />
         <option value="$PROJECT_DIR$/Assets/__Script/itemHideFX.cs" />
         <option value="$PROJECT_DIR$/Assets/__Script/ScoreHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/__Script/FXPool/VFXPool.cs" />
         <option value="$PROJECT_DIR$/Assets/SceneReolader.cs" />
         <option value="$PROJECT_DIR$/Assets/__Script/SceneChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/__Script/scoreItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/__Script/Getter.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +112,7 @@
       <workItem from="1664113035110" duration="7592000" />
       <workItem from="1664200627234" duration="3948000" />
       <workItem from="1664269628619" duration="2829000" />
+      <workItem from="1664295381979" duration="754000" />
     </task>
     <servers />
   </component>
