@@ -46,7 +46,8 @@ namespace SortItems
                     continue;
                 }
 
-                 item.count++;                                                                                            
+                 item.count++; 
+                 Score.AddScore();
             }
 
              bool full = true;
@@ -63,10 +64,9 @@ namespace SortItems
 
             if (full)
             {
-                Score.AddScore();
                 ObjectDiactiv.SetActive(false);
                 ObjectActive.SetActive(true);
-                onFull.Invoke();
+               // onFull.Invoke();
             }
         }
     }

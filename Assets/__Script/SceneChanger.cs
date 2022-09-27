@@ -3,46 +3,50 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChanger : MonoBehaviour
+namespace SortItems
 {
-
-    private void Start() 
+    public class SceneChanger : MonoBehaviour
     {
-        var level = PlayerPrefs.GetInt("Level", 0);
-        var idx = SceneManager.GetActiveScene().buildIndex;
-        if(level != idx)
+
+        /*private void Start() 
         {
-            LoadLevel(level);
-        }
-    }
+            var level = PlayerPrefs.GetInt("Level", 0);
+            var idx = SceneManager.GetActiveScene().buildIndex;
+            if(level != idx)
+            {
+                LoadLevel(level);
+            }
+        }*/
 
-    public void LoadLevel(int levelIdx)
-    {
-        var sceneCount = SceneManager.sceneCountInBuildSettings;
-        var nextLevel = (levelIdx) % sceneCount;
-        SceneManager.LoadScene(nextLevel);
-    }
-
-
-    public void LoadNextLevel()
-    {
-        var idx = SceneManager.GetActiveScene().buildIndex;
-        var sceneCount = SceneManager.sceneCountInBuildSettings;
-        var nextLevel = (idx + 1) % sceneCount;
-        PlayerPrefs.SetInt("Level", nextLevel);
-        SceneManager.LoadScene(nextLevel);
-    }
-
-    public void ReloadScene()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
-    private void Update()
-    {
-        if(Input.GetKeyUp(KeyCode.R))
+        /*public void LoadLevel(int levelIdx)
         {
-            ReloadScene();
+            var sceneCount = SceneManager.sceneCountInBuildSettings;
+            var nextLevel = (levelIdx) % sceneCount;
+            SceneManager.LoadScene(nextLevel);
+        }*/
+
+
+        /*public void LoadNextLevel()
+        {
+            var idx = SceneManager.GetActiveScene().buildIndex;
+            var sceneCount = SceneManager.sceneCountInBuildSettings;
+            var nextLevel = (idx + 1) % sceneCount;
+            PlayerPrefs.SetInt("Level", nextLevel);
+            SceneManager.LoadScene(nextLevel);
+        }*/
+
+        public void ReloadScene()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+
+        /*private void Update()
+        {
+            if(Input.GetKeyUp(KeyCode.R))
+            {
+                //ReloadScene();
+            }
+        }*/
     }
 }
+

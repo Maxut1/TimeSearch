@@ -25,7 +25,7 @@ namespace SortItems
             if (CurentScore != ScoreCaunt)
             {
                 ScoreCaunt = CurentScore;
-                Caunter.text = ScoreCaunt.ToString();
+                Caunter.text = ScoreCaunt.ToString() + "/5";
         
             }
         }
